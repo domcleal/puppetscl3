@@ -1,0 +1,2 @@
+%__puppetscl3_requires	echo -n "%{?scl_runtime}"
+%__puppetscl3_path			%{?scl:^%{_scl_prefix}/.*$}
