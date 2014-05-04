@@ -141,5 +141,8 @@ EOF
 
 
 %changelog
+* Sun May 04 2014 Dominic Cleal <dcleal@redhat.com> 1.0-1
+- new package built with tito
+
 * Wed Apr 02 2014 Dominic Cleal <dcleal@redhat.com> - 1-1
 - Initial package.
