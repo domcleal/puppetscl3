@@ -58,6 +58,7 @@ Requires:       %{?scl_prefix_ruby}ruby(abi) = %{ruby_version}
 %endif
 %endif
 Requires:       which
+%{?scl:Requires: %{scl}-runtime}
 
 %description
 Facter is a lightweight program that gathers basic node information about the

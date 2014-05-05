@@ -38,6 +38,7 @@ Requires:       %{?scl_prefix_ruby}ruby(abi) = 1.8
 Requires:       %{?scl_prefix_ruby}ruby(release)
 %endif
 %endif
+%{?scl:Requires: %{scl}-runtime}
 
 %description
 A simple hierarchical database supporting plugin data sources.
