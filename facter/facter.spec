@@ -23,7 +23,7 @@
 
 Name:           %{?scl_prefix}facter
 Version:        2.0.1
-Release:        1%{?dist}
+Release:        1.1%{?dist}
 Summary:        Command and ruby library for gathering system information
 
 Group:          System Environment/Base
@@ -123,6 +123,9 @@ rspec spec
 
 
 %changelog
+* Mon May 05 2014 Dominic Cleal <dcleal@redhat.com> 2.0.1-1.1
+- Add dependency on SCL runtime
+
 * Tue Apr 29 2014 Sam Kottler <skottler@fedoraproject.org> - 2.0.1-1
 - Update to to 2.0.1
 
